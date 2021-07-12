@@ -15,7 +15,7 @@ The workflow has 2 operators:
 - [S100_operator](https://github.com/tercen/S100_operator)
 
 Furthermore it has 2 views:
-- Saterated View: to check for fully saturated spots.
+- Saturated View: to check for fully saturated spots.
 - Fitted View: display points and fitted regression line.
 
 ##### See Also

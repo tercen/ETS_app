@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "33fb64086c3295748ed979a87b5c1539",
   "isDeleted": false,
-  "rev": "78-08cd2d30b09a61583ccb22b0798ca221",
+  "rev": "79-9de58ef11c6b774bf1dc2f804bd02a9c",
   "description": "Exposure Time Scaling application.",
   "name": "ETS_app",
   "createdBy": "Martin",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-01-11T09:15:07.494509Z"
+    "value": "2022-01-21T09:50:37.283522Z"
   },
   "urls": [
     {
@@ -624,7 +624,7 @@
       "kind": "DataStep",
       "id": "e3206d05-cf20-4c65-98fb-cacc2f2ebb2a",
       "groupId": "",
-      "name": "Saterated View",
+      "name": "Saturated View",
       "inputs": [
         {
           "kind": "InputPort",
@@ -645,7 +645,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 106.96778869628906,
+          "x": 107.8358154296875,
           "y": 55.0
         },
         "topLeft": {

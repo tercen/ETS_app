@@ -1,11 +1,11 @@
 {
   "kind": "Workflow",
-  "id": "33fb64086c3295748ed979a87b5c1539",
+  "id": "c845ceade32c4423bc616ff5ab469882",
   "isDeleted": false,
-  "rev": "79-9de58ef11c6b774bf1dc2f804bd02a9c",
-  "description": "Exposure Time Scaling application.",
+  "rev": "5-c829a42cb4888dc5082e95d13614a112",
+  "description": "Combines multiple exposure times from PamGene PS12 images.",
   "name": "ETS_app",
-  "createdBy": "Martin",
+  "createdBy": "ginberg",
   "acl": {
     "kind": "Acl",
     "owner": "pamgene",
@@ -13,11 +13,11 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2021-09-21T11:05:39.279986Z"
+    "value": "2022-02-03T08:57:32.799827Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-01-21T09:50:37.283522Z"
+    "value": "2022-02-14T08:03:15.680173Z"
   },
   "urls": [
     {
@@ -42,10 +42,10 @@
     "kind": "Url",
     "uri": "https://github.com/tercen/ETS_app"
   },
-  "version": "0.0.1",
+  "version": "0.0.4",
   "authors": [],
   "isPublic": false,
-  "projectId": "33fb64086c3295748ed979a87b34b3b7",
+  "projectId": "c845ceade32c4423bc616ff5ab22f158",
   "folderId": "",
   "links": [
     {
@@ -312,7 +312,7 @@
             "kind": "OperatorRef",
             "name": "ETS",
             "version": "0.0.2",
-            "operatorId": "9b71acd01fc31cc0c265a1190ae7efe3",
+            "operatorId": "c845ceade32c4423bc616ff5ab189d39",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -573,7 +573,7 @@
             "kind": "OperatorRef",
             "name": "S100",
             "version": "0.0.2",
-            "operatorId": "9b71acd01fc31cc0c265a1190ae7ff8a",
+            "operatorId": "c845ceade32c4423bc616ff5ab18b165",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -1422,7 +1422,7 @@
       "model": {
         "kind": "WizardStepModel",
         "namespace": "ETS",
-        "description": "",
+        "description": "Combines multiple exposure times from PamGene PS12 images.",
         "appDesignType": "ets.c06_groups_series_measurement2",
         "factors": [
           {
